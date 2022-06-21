@@ -1,0 +1,24 @@
+{
+  "name": "onemonitor",
+  "version": "1.0.0",
+  "description": "1C RAC+RAS monitor",
+  "main": "monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvavilov812/oneMonitor.git"
+  },
+  "keywords": [
+    "1C",
+    "RAC",
+    "RAS"
+  ],
+  "author": "Vavilov Konstantin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvavilov812/oneMonitor/issues"
+  },
+  "homepage": "https://github.com/kvavilov812/oneMonitor#readme"
+}
