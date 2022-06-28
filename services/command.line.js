@@ -11,6 +11,8 @@ const optionDefinitions = [
     { name: 'src', type: String, multiple: true, defaultOption: true },
     { name: 'help', alias: 'h', type: Boolean },
     { name: 'ras', type: String },
+    { name: 'rac', type: String },
+    { name: 'saverac', type: Boolean },
 ];
 
 const sections = [
@@ -23,6 +25,16 @@ const sections = [
     {
         header: 'Опции',
         optionList: [
+            {
+                name: 'rac',
+                typeLabel: '{underline RAC address }',
+                description: 'Адрес RAC.',
+            },
+            {
+                name: 'saverac',
+                type: Boolean,
+                description: 'Сохранить путь RAC.',
+            },
             {
                 name: 'ras',
                 typeLabel: '{underline RAS address }',
